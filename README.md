@@ -18,6 +18,16 @@ Uses a fine-tuned T5 model for accurate translations
 
 Simple and clean Streamlit interface
 
+🏋️ Training Details
+
+Model: T5-small fine-tuned for English → French translation.
+
+Dataset: 1000 English → French sentence pairs.
+
+Training goal: Demonstrate fine-tuning and deploying a transformer model with limited data.
+
+Framework: Hugging Face Transformers + PyTorch.
+
 💻 Usage
 
 Clone the repository:
