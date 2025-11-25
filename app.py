@@ -11,8 +11,8 @@ path= "Dhineshsakthivel/translator-t5-finetuned"
 
 @st.cache_resource
 def load_model():
-    model = T5ForConditionalGeneration.from_pretrained(path)
-    tokenizer = T5Tokenizer.from_pretrained(path)
+    model = T5ForConditionalGeneration.from_pretrained(path,local_files_only=False)
+    tokenizer = T5Tokenizer.from_pretrained(path,local_files_only=False)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     return model, tokenizer, device
