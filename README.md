@@ -4,7 +4,8 @@ This is a Streamlit web app for translating English text to French using a fine-
 
 The app uses the Hugging Face Transformers library and a custom fine-tuned T5 model hosted on Hugging Face.
 
-🔗 Live Demo
+🔗 Live Demo:https://translator-djpirvrt6c2n5gg5ayd299.streamlit.app/
+
 
 Try the app online here:
 Translator App
